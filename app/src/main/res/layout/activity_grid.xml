@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="utf-8"?>
-<FrameLayout
+<android.support.v4.widget.SwipeRefreshLayout
     xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
-
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context="com.pwk.app.myapplication.MainActivity">
-<ListView
+    tools:context="com.pwk.app.myapplication.GridActivity"
+    android:id="@+id/srl">
+<GridView
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:id="@+id/listview"/>
-</FrameLayout>
+    android:id="@+id/gridview"/>
+</android.support.v4.widget.SwipeRefreshLayout>

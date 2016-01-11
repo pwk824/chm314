@@ -24,6 +24,10 @@
                 android:name="android.support.PARENT_ACTIVITY"
                 android:value="com.pwk.app.myapplication.MainActivity" />
         </activity>
+        <activity android:name=".ScrollActivity" />
+        <activity android:name=".ListViewActivity" />
+        <activity android:name=".CustomListActivity" />
+        <activity android:name=".GridActivity"></activity>
     </application>
 
 </manifest>
